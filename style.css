@@ -9,3 +9,15 @@
 @media(max-width:1050px) and (min-width:901px){.home{gap:20px;padding-left:5%;padding-right:5%;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}.home h1{font-size:37px;letter-spacing:-1.7px}.home .intro{font-size:13px}.hero-portrait{height:480px}.home .eyebrow{font-size:8px;letter-spacing:1.5px}.home .button{padding:12px 15px;font-size:10px;gap:10px}}
 @media(max-width:900px){.home{grid-template-columns:1fr;gap:25px;padding-top:45px;padding-bottom:115px}.hero-copy{max-width:620px;width:100%;margin:auto}.home h1{font-size:clamp(36px,6.2vw,55px);letter-spacing:-1.8px}.hero-portrait{width:100%;max-width:520px;height:auto;aspect-ratio:1 / 1.1;margin:0 auto}.hero-portrait img{position:absolute;inset:0}.home .intro{max-width:580px}.home-bottom{bottom:28px}.home-bottom>span:last-child{display:none}}
 @media(max-width:480px){.home{gap:23px}.hero-portrait{aspect-ratio:1 / 1.12}.home h1{font-size:clamp(33px,8.1vw,39px);letter-spacing:-1.6px}}
+
+/* Unified black canvas and project materials */
+:root,body,body[data-page]{background:#08090b;color:#f5f5f7}
+.signature{font-family:'Space Grotesk',Poppins,Arial,sans-serif;font-weight:600;font-size:26px;letter-spacing:-1px;transform:none;color:#f5f5f7}
+body[data-page=projects] .signature{color:#f5f5f7}body[data-page=projects] .nav{background:#86868d69;color:#f5f5f7}body[data-page=projects] .nav a[aria-current]{background:#ffffff10;color:#fff;border-color:#ffffff9c}body[data-page=projects] .edition{color:var(--muted)}
+.project-heading .button{border-color:#ffffff60}.gallery-note,body[data-page=projects] footer{color:#92929e}body[data-page=projects] footer{border-color:#ffffff12}
+.ecowave{background:#152b26;min-height:350px;border:1px solid #7bb49c33}.eco-wordmark{font-family:'Space Grotesk',Arial,sans-serif;font-size:42px;font-weight:600;letter-spacing:-2px;margin:36px 0 38px;color:#edf7ed}.eco-wordmark span{color:#8ed6ad}.eco-wordmark small{display:block;font-size:8px;letter-spacing:1.4px;margin-top:15px;font-weight:400}
+.project-cover{display:block;width:calc(100% + 48px);margin:24px -24px;aspect-ratio:1.35;object-fit:cover;object-position:60% 50%}.press{min-height:380px}
+dialog{max-width:860px;max-height:90svh;overflow-y:auto}#dialog-materials video{display:block;width:100%;border-radius:12px;background:#08090b;margin:24px 0}.material-links{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}
+@media(max-width:1050px){.signature{font-size:23px}.project-cover{width:calc(100% + 38px);margin-left:-19px;margin-right:-19px}}
+@media(max-width:740px){.signature{font-size:27px}.project-cover{width:calc(100% + 36px);margin-left:-18px;margin-right:-18px}dialog{padding:45px 23px 25px}.material-links .button{width:100%}}
+@media(max-width:390px){.project-cover{width:calc(100% + 50px);margin-left:-25px;margin-right:-25px}}
